@@ -64,14 +64,10 @@
                 <article class="quienes-somos__info">
                     <h1 class="quienes-somos--title">¿Quienes somos?</h1>
                     <p class="quienes-somos--description">
-                     Iniciamos nuestras operaciones como una empresa "Outsourcing" 
-                     con el propósito de ofrecer a las empresas nacionales y extranjeras
-                     toda nuestra experiencia en la administración integral del Recurso Humano, 
-                     fundamentando nuestros sistemas y procesos en las reglamentaciones y disposiciones laborales, 
-                     fiscales y de seguridad social vigentes. 
-                     <br><br>
-                     Contamos con un equipo multidisciplinar de profesionales, 
-                     especializados y calificados para cada área de servicio que ofrecemos.
+                        Oxygen Outsourcing se constituye en San José Costa Rica desde 2015. <br>
+                        Nuestro lema: "Gane a Gane" ¿Porqué? Porque hemos realizado varios estudios que nos confirman la necesidad que buscan las empresas en el tema de reclutamiento de personal, así como de muchos otros servicios que son necesarios tanto para el desarrollo como el crecimiento de su empresa.
+                        <br><br>
+                        Estamos a su lado y mejoramos cualquier cotización de los siguientes servicios:
                     </p>                  
 
                 </article>           
