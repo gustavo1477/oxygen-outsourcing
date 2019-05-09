@@ -1,0 +1,43 @@
+.valores{
+    background: #fff;
+    padding: 8rem 0 8rem;       
+    
+    &-title{
+        color: $hover-text;
+        text-align: center;
+        margin: 0;        
+        padding: 2rem;
+        font-size: var(--h2--font-size);
+    }
+}
+
+.valores-block{   
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.valores-items{
+    width: 100%;
+    border: 1px solid rgba($border-color, .2);
+    padding: 2rem;
+    transition: all ease .4s;
+
+    &:hover{
+        border: 2px solid rgba($border-color, .2);
+        transform: scale(1.1);
+    }   
+
+    &__title{
+         margin: 0;
+         padding-top: 1.5rem;
+    }
+
+    @include from(md){
+        width: calc(50% - 2rem);
+    }
+
+    @include from(lg){
+        width: calc(25% - 2rem);
+    }
+    margin: 1rem;
+}

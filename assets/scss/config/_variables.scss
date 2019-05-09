@@ -1,0 +1,55 @@
+$max-width     : 1200px;
+$header-height : 5rem;
+
+// Paleta de colores
+
+$main-color   : #F2F7F8;
+$color-text   : #1D79CE;
+$color-alternate-text: rgba($color-text, .8);
+$border-color : #182A40;
+$hover-text   : #305480;
+
+// Breakpoints
+
+$breakpoints : (
+    sm  : 30em,
+    md : 48em,
+    lg  : 64em,
+    xl  : 75em
+);
+
+:root{
+    --color-button : #305480;
+}
+
+// paleta de colores redes sociales
+:root{
+    --facebook  : rgb(59, 89, 152);
+    --instagram : rgb(205, 72, 107);
+    --correo    : rgb(0, 191, 143);
+}
+
+:root{
+    --h1-font-size    : 2rem;
+    --h2-font-size    : 1.5rem;
+    --h3-font-size    : 1.25rem;
+    --body-font-size  : .9rem;
+    --small-font-size : .75rem;
+
+   @include from(lg) {
+        --h1--font-size    : 2.5rem;        
+        --h2--font-size    : 1.75rem;
+        --h3--font-size    : 1.5rem;
+        --body--font-size  : 1rem;
+        --small--font-size : .8rem;
+    }
+}
+
+// Variables de apilamiento(z-index)
+:root{
+    --z-back    : -10;
+    --z-normal  : 1;
+    --z-tooltip : 10;
+    --z-fixed   : 100;
+    --z-modal   : 1000;
+    }

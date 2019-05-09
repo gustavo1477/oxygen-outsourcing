@@ -1,0 +1,49 @@
+.quienes-somos{
+    background: #F7F7F9;  
+    overflow-x: hidden;  
+    padding:  5rem 0 5rem;
+}
+
+.quienes-somos__block{
+    justify-content: space-between;    
+    flex-direction: column;
+
+    @include from(md){
+        flex-direction: row;
+    }
+}
+
+.quienes-somos__img{
+    flex : 1 0 50%;    
+    
+    img{       
+        display     : block;
+        margin-left : 1.2rem;
+        width: 100%;
+       
+    }
+}
+
+.quienes-somos__info{
+    flex        : 1 0 50%;    
+    order: -1;
+    padding-top: 5rem; 
+}
+
+.quienes-somos--title{
+    color     : $color-text;
+    font-size : var(--h1-font-size);
+    margin    : 0;
+}
+
+.quienes-somos--subtitle{
+    margin : 0;
+    color  : $color-text;
+}
+
+.quienes-somos--description{
+    margin    : 0;
+    font-size : var(--h3--font-size);
+    padding   : 1.1rem;
+    
+}

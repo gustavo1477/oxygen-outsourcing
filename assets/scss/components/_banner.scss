@@ -1,0 +1,36 @@
+.main-banner{
+    padding    : 5rem;
+    min-height: 100vh;
+    background : #000;
+    color      : #fff;
+    text-align : center;
+    position   : relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    &__content{
+        position  : relative;
+        font-size : var(--h2--font-size);
+
+        @include from(lg){
+            position  : relative;
+            font-size : var(--h2-font-size);        
+
+        }
+    }
+
+    &__hero-img{
+        position        : absolute;
+        top             : 0;
+        left            : 0;
+        width           : 100%;
+        height          : 100%;
+        object-fit      : cover;
+        object-position : center;
+        opacity         : .5 ;
+       
+    }
+}

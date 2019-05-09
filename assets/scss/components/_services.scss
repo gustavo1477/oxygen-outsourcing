@@ -1,0 +1,65 @@
+.servicios{
+   padding: 7rem 0 7rem; 
+   
+
+   &-title{
+    color       : $hover-text;
+    text-align  : center;
+    margin      : 0;        
+    padding     : 2rem;
+    font-size   : var(--h2--font-size);
+  }
+}
+
+.servicios-block{
+  flex-wrap  : wrap;
+  text-align : center;
+}
+
+.servicios-items{
+  width      : calc(50% - 2rem);
+  transition : all ease .5s;
+  padding    : 2.5rem;
+
+  &:hover{
+    background    : $hover-text;
+    border        : 3px solid #fff;
+    border-radius : 10px;
+    color         : #fff;
+    transform     : scale(1.1);
+  }
+
+  @include from(md){
+    width : calc(33.33% - 2rem);
+  }
+
+  @include from(lg){
+    width : calc(33.33% - 2rem);
+  }
+  margin  : 1rem;
+   
+   &__icon{
+    border           : 1px solid $color-text;
+    border-radius    : 50%;
+    width            : 90px;
+    height           : 90px;
+    display          : flex;
+    justify-content  : center;
+    align-items      : center;
+    padding          : 1rem;
+    margin           : auto;
+    transition       : all ease-in-out .5s;
+
+    &:hover{
+      background : #fff;
+      border     : 3px solid #fff;      
+      transform  : scale(1.1);
+    }
+   }
+
+   &__title{
+     margin      : 0;
+     padding-top : 1rem;
+     font-size   : var(--body--font-size);
+   }
+}

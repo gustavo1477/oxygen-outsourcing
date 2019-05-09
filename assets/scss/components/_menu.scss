@@ -1,0 +1,55 @@
+.main-menu{
+    margin-top    : 0;
+    margin-bottom : 0;
+    padding-left  : 0;
+    
+    @include from(lg){
+        display: flex;
+    }
+}
+
+.main-menu__item{
+    padding : 1rem;
+}
+
+.main-nav{
+    position    : fixed;
+    height      : calc(100vh - #{$header-height});
+    width       : 80vw;
+    background  : $hover-text;
+    top         : $header-height;
+    right       : -80vw;
+    transition  : right .3s;
+    padding-top : 1rem;
+    z-index     : var(--z-fixed);
+
+    @include from(lg){
+        position : static;
+        background: transparent;
+        padding-top: 0;
+        height: auto;
+        width: auto;
+    }
+
+    &.show{
+        right: 0;
+    }
+}
+
+.main-menu__link{
+    color : #fff;
+    margin-left: 1rem;    
+}
+
+.main-menu-toggle{
+    $color        : #fff;
+    width         : 2.2rem;
+    height        : 1.6rem;
+    background    : linear-gradient($color 20%, transparent 20%, transparent 40%, $color 40%, $color 60%, transparent 60%, transparent 80%, $color 80%);
+    cursor        : pointer;
+
+    @include from(lg){
+        display: none;
+    }
+
+ }

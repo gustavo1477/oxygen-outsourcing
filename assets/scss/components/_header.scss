@@ -1,0 +1,27 @@
+.main-header{
+	background: $color-text;
+	height: $header-height;
+	border-bottom: 1px solid $border-color;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: var(--z-fixed);
+}
+
+.main-header__block{
+	justify-content : space-between;
+	align-items    : center;
+	height         : 100%;
+	flex-wrap      : wrap;
+}
+
+.main-logo{
+	height: 3.5rem;
+
+	@include from(lg){
+		height: 4rem
+	}
+	
+}
+
