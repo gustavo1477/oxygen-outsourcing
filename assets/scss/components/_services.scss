@@ -1,65 +1,72 @@
-.servicios{
-   padding: 7rem 0 7rem; 
-   
-
-   &-title{
-    color       : $hover-text;
-    text-align  : center;
-    margin      : 0;        
-    padding     : 2rem;
-    font-size   : var(--h2--font-size);
+.services{
+ 
+  padding    : 8rem 0 8rem;  
+    
+  &-title{
+    width      : 100%;
+    text-align : center;
+    color      : $hover-text;
+    margin     : 0;
+    padding-bottom: 4rem;
+    font-size  : var(--h2--font-size);
   }
 }
 
-.servicios-block{
-  flex-wrap  : wrap;
-  text-align : center;
-}
+.services-container{
 
-.servicios-items{
-  width      : calc(50% - 2rem);
-  transition : all ease .5s;
-  padding    : 2.5rem;
+  display   : flex;
+  flex-wrap : wrap;
+  text-align: center; 
+  
 
-  &:hover{
-    background    : $hover-text;
-    border        : 3px solid #fff;
-    border-radius : 10px;
-    color         : #fff;
-    transform     : scale(1.1);
+  :hover{
+      
+    box-shadow: 7px 3px 18px 0px rgba(0,0,0,0.75);
+
   }
+  
 
-  @include from(md){
-    width : calc(33.33% - 2rem);
-  }
+  .services-item{
 
-  @include from(lg){
-    width : calc(33.33% - 2rem);
-  }
-  margin  : 1rem;
-   
-   &__icon{
-    border           : 1px solid $color-text;
-    border-radius    : 50%;
-    width            : 90px;
-    height           : 90px;
-    display          : flex;
-    justify-content  : center;
-    align-items      : center;
-    padding          : 1rem;
-    margin           : auto;
-    transition       : all ease-in-out .5s;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 2.5rem;
+    margin: 1rem;
+    width: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
-    &:hover{
-      background : #fff;
-      border     : 3px solid #fff;      
-      transform  : scale(1.1);
+    :hover{
+
+      box-shadow: none;
+    }        
+
+    @include from(md){
+
+      width: calc(25% - 2rem);
+
+    } 
+
+    &--title{
+
+     font-size: 1em;
+     color: #999999;
+     width: 100%;
+
     }
-   }
+    
+    &--link{
+      
+    
 
-   &__title{
-     margin      : 0;
-     padding-top : 1rem;
-     font-size   : var(--body--font-size);
-   }
+    }
+  }
+
+  
+
 }

@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Raleway:400,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">    
     <script src="assets/js/wow.min.js"></script>
     <script>
        new WOW().init();
@@ -73,6 +73,180 @@
                 </article>           
             </section>
         </div>
+
+         <!-- Servicios -->
+       <section class="services">
+
+            <h1 class="services-title">Nuestros servicios</h1>
+
+            <section class="services-container l-container">
+
+                <div class="services-item">
+                    
+                    <h3 class="services-item--title">Personal Outsourcing</h3>
+                   
+                    <div class="services-item--link">
+                        <a href="#" class="services-link">Leer más</a>
+                    </div>
+                     
+
+                </div>
+
+                <!----------------------------------------------------------------->
+
+                <div class="services-item">
+                    
+                    <h3 class="services-item--title">Cargas y descargas de contenedores</h3>
+                    <div class="services-item--link">
+                        <a href="#" class="services-link">Leer más</a>
+                    </div>
+                      
+                </div>
+
+                 <!----------------------------------------------------------------->
+
+                <div class="services-item">
+
+                    <h3 class="services-item--title">Búsqueda, Reclutamiento, Evaluación y Selección de personal</h3>
+                    
+                    <a href="#" class="services-item--link">Leer más</a>
+                      
+                </div>
+
+                 <!----------------------------------------------------------------->
+
+                 <div class="services-item">
+
+                    <h3 class="services-item--title">Contratación e Inducción (On boarding process)</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                      
+                </div>
+
+                 <!-- ------------------------------------------------------------- -->
+
+                 <div class="services-item">
+
+                    
+                    <h3 class="services-item--title">Administración de la Capacitación y el Bienestar</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                      
+                </div>
+
+                 <!-- ------------------------------------------------------------- -->                 
+
+                 <div class="services-item">
+
+                    
+                    <h3 class="services-item--title">Servicios de Consultoría</h3>
+                    <p href="#" class="services-item--description">Persona-Organización-Mercado</p>
+                      
+                </div>
+
+                 <!-- ------------------------------------------------------------- -->
+
+                 <div class="services-item">
+
+                    
+                    <h3 class="services-item--title">Cursos, Seminarios y Charlas</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                    
+                </div>
+
+                <!----------------------------------------------------------------->
+
+                 <div class="services-item">
+
+                   
+                    <h3 class="services-item--title">Paquetes vacacionales</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                      
+                </div>
+
+                 <!-- -------------------------------------------------------------->
+
+                 <div class="services-item">
+
+                  
+                    <h3 class="services-item--title">Eventos BTL</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                    
+                 </div>
+
+                <!-- -------------------------------------------------------------->
+
+                <div class="services-item">
+
+                    
+                    <h3 class="services-item--title">Catering Service</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                    
+                 </div>
+
+                <!---------------------------------------------------------------->  
+
+                <div class="services-item">
+
+                    
+                    <h3 class="services-item--title">Aseo Industrial...</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                    
+                 </div>
+
+                <!---------------------------------------------------------------->  
+
+                <div class="services-item">
+
+                    
+                    <h3 class="services-item--title">Venta de implementos de oficina</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                    
+                 </div>
+                 
+                <!---------------------------------------------------------------->    
+
+                <div class="services-item">
+
+                  
+                    <h3 class="services-item--title">Etiquetado y armado de promociones</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                    
+                 </div>
+                 
+                <!---------------------------------------------------------------->   
+
+                <div class="services-item">
+
+                    
+                    <h3 class="services-item--title">Serigrafía</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                    
+                 </div>
+                 
+                <!---------------------------------------------------------------->   
+
+                <div class="services-item">
+
+                   
+                    <h3 class="services-item--title">Rotulación</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                    
+                 </div>
+                 
+                <!----------------------------------------------------------------> 
+
+                <div class="services-item">
+
+                    
+                    <h3 class="services-item--title">Mercadeo y telemarketing</h3>
+                    <a href="#" class="services-item--link">Leer más</a>
+                    
+                 </div>
+                 
+                <!---------------------------------------------------------------->     
+
+            </section>  
+
+       </section>
         <!--Valores -->
 
         <section class="valores" id="nuestros-valores">
@@ -104,50 +278,7 @@
                 </div>
             </div>
         
-        </section>
-
-        <!-- Servicios -->
-        <section class="servicios" id="nuestros-servicios">
-        <h2 class="servicios-title">Nuestros servicios</h2>
-            <div class="l-container servicios-block">
-                <article class="servicios-items">
-                    <div class="servicios-items__icon">
-                        <img src="assets/img/limpieza-oficinas-oxygen.png" width="64" height="64"  alt="">
-                    </div>
-                    <h2 class="servicios-items__title">Limpieza de oficinas </h2>
-                </article> 
-                <article class="servicios-items">
-                    <div class="servicios-items__icon">
-                        <img src="assets/img/cleaning-home-oxygen.png" width="64" height="64" alt="">
-                    </div>
-                    <h2 class="servicios-items__title">Limpieza de hogares </h2>
-                </article> 
-                <article class="servicios-items">
-                    <div class="servicios-items__icon">
-                        <img src="assets/img/window-cleaner-oxygen.png" width="64" height="64" alt="">
-                    </div>
-                    <h2 class="servicios-items__title">Limpieza de ventanas </h2>
-                </article> 
-                <article class="servicios-items">
-                    <div class="servicios-items__icon">
-                        <img src="assets/img/garden-oxygen.png" width="64" height="64" alt="">
-                    </div>
-                    <h2 class="servicios-items__title">Servicio de jardinería </h2>
-                </article> 
-                <article class="servicios-items">
-                    <div class="servicios-items__icon">
-                        <img src="assets/img/job-oxygen.png" width="64" height="64" alt="">
-                    </div>
-                    <h2 class="servicios-items__title">Contrato de personal </h2>
-                </article> 
-                <article class="servicios-items">
-                    <div class="servicios-items__icon">
-                        <img src="assets/img/policeman-oxygen.png" width="64" height="64" alt="">
-                    </div>
-                    <h2 class="servicios-items__title">Servicio de seguridad </h2>
-                </article> 
-            </div>    
-        </section>
+        </section>       
 
         <!-- Contacto -->
 
