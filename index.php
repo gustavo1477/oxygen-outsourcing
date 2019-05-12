@@ -168,7 +168,9 @@
                  <div class="services-item">
 
                     
-                    <h3 class="services-item--title">Servicios de Consultoría</h3>
+                    <h3 class="services-item--title">Servicios de Consultoría para mejorar el Desempeño, la efectividad y la
+                        adaptación al Cambio</h3>
+                        
                     <p class="services-item--description">Persona-Organización-Mercado</p>
                       
                 </div>
@@ -294,50 +296,40 @@
                 <!---------------------------------------------------------------->  
 
                 <div class="services-item">
-
                     
-                    <h3 class="services-item--title">Venta de implementos de oficina</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <h3 class="services-item--title">Venta de implementos de oficina</h3>                    
                     
                  </div>
                  
                 <!---------------------------------------------------------------->    
 
                 <div class="services-item">
-
                   
-                    <h3 class="services-item--title">Etiquetado y armado de promociones</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <h3 class="services-item--title">Etiquetado y armado de promociones</h3>                    
                     
                  </div>
                  
                 <!---------------------------------------------------------------->   
 
                 <div class="services-item">
-
                     
-                    <h3 class="services-item--title">Serigrafía</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <h3 class="services-item--title">Serigrafía</h3>                    
                     
                  </div>
                  
                 <!---------------------------------------------------------------->   
 
                 <div class="services-item">
-
                    
-                    <h3 class="services-item--title">Rotulación</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <h3 class="services-item--title">Rotulación</h3>                    
                     
                  </div>
                  
                 <!----------------------------------------------------------------> 
 
                 <div class="services-item">
-
                     
-                    <h3 class="services-item--title">Mercadeo y telemarketing</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <h3 class="services-item--title">Mercadeo y telemarketing</h3>                   
                     
                  </div>
                  
