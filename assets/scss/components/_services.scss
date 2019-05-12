@@ -21,7 +21,7 @@
 
   :hover{
       
-    box-shadow: 7px 3px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 3px 18px 0px rgba($hover-text,.75);
 
   }
   
@@ -30,7 +30,7 @@
 
     background: #fff;
     border: none;
-    border-radius: 50%;
+    border-radius: 10%;
     width: 250px;
     height: 250px;
     padding: 2.5rem;
@@ -39,18 +39,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 
     :hover{
 
       box-shadow: none;
     }        
 
-    @include from(md){
+    @include from(lg){
 
       width: calc(25% - 2rem);
 
     } 
+
+   
 
     &--title{
 
@@ -59,14 +61,35 @@
      width: 100%;
 
     }
+   
     
     &--link{
       
     
 
     }
+    
   }
 
   
 
+}
+
+// MODAL
+
+.list{
+
+  font-size: 20px;  
+
+  &-item{
+
+    margin: 20px;
+  }
+
+}
+
+.modal-description{
+
+  text-align: center;
+  font-size: 18px;
 }

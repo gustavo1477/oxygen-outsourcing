@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">    
+    <link rel="stylesheet" href="assets/css/responsive.min.css"> 
     <script src="assets/js/wow.min.js"></script>
     <script>
        new WOW().init();
@@ -73,9 +74,10 @@
                 </article>           
             </section>
         </div>
+        <hr>
 
          <!-- Servicios -->
-       <section class="services">
+       <section class="services" id="nuestros-servicios">
 
             <h1 class="services-title">Nuestros servicios</h1>
 
@@ -83,12 +85,9 @@
 
                 <div class="services-item">
                     
-                    <h3 class="services-item--title">Personal Outsourcing</h3>
-                   
-                    <div class="services-item--link">
-                        <a href="#" class="services-link">Leer más</a>
-                    </div>
-                     
+                    <h3 class="services-item--title">Personal Outsourcing</h3>  
+
+                    <p href="#" class="services-item--description">Personal variable de acuerdo a las necesidades</p>            
 
                 </div>
 
@@ -96,10 +95,7 @@
 
                 <div class="services-item">
                     
-                    <h3 class="services-item--title">Cargas y descargas de contenedores</h3>
-                    <div class="services-item--link">
-                        <a href="#" class="services-link">Leer más</a>
-                    </div>
+                    <h3 class="services-item--title">Cargas y descargas de contenedores</h3>                 
                       
                 </div>
 
@@ -109,7 +105,25 @@
 
                     <h3 class="services-item--title">Búsqueda, Reclutamiento, Evaluación y Selección de personal</h3>
                     
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <a href="#" class="modal services-item--link" data-lightbox-target="#modal" data-lightbox-modal="true">Leer más</a>
+                    <div id="modal" class="hidden">
+                    <h3 class="services-item--title" style="text-align:center; font-size:24px">Búsqueda, Reclutamiento, Evaluación y Selección de personal</h3>
+                        <ul class="list">
+                            <li class="list-item"><i class="fas fa-user-check"></i> Análisis curricular y verificación de antecedentes</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Test psicométricos para medición de aptitudes</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Definición de interés por parte de los candidatos</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Test de situaciones practicas</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Test de polígrafo</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Entrega por escrito de completos y finos reportes para el cliente</li>
+                           <li class="list-item"><i class="fas fa-user-check"></i> Feed-back a los candidatos</li>
+                        </ul>
+                        
+                        <p>
+                            <button role="button" data-lightbox-modal-trigger=".modal">
+                                Cerrar
+                            </button>
+                        </p>
+                    </div>
                       
                 </div>
 
@@ -118,18 +132,35 @@
                  <div class="services-item">
 
                     <h3 class="services-item--title">Contratación e Inducción (On boarding process)</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <a href="#" class="modal services-item--link" data-lightbox-target="#modal-1" data-lightbox-modal="true">Leer más</a>
+                    <div id="modal-1" class="hidden">
+
+                        <h3 class="services-item--title" style="text-align:center; font-size:24px">Contratación e Inducción (On boarding process)</h3>
+
+                        <p class="modal-description">
+
+                            Inducción a la empresa y al cargo a desempeñar,incluyendo un programa de coaching individual
+
+                        </p>
+
+                        <p>
+                            <button role="button" data-lightbox-modal-trigger=".modal">
+                                Cerrar
+                            </button>
+                        </p>
+
+
+                    </div>
+                    
                       
                 </div>
 
                  <!-- ------------------------------------------------------------- -->
 
                  <div class="services-item">
-
                     
-                    <h3 class="services-item--title">Administración de la Capacitación y el Bienestar</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
-                      
+                    <h3 class="services-item--title">Administración de la Capacitación y el Bienestar</h3>                    
+                                          
                 </div>
 
                  <!-- ------------------------------------------------------------- -->                 
@@ -138,7 +169,7 @@
 
                     
                     <h3 class="services-item--title">Servicios de Consultoría</h3>
-                    <p href="#" class="services-item--description">Persona-Organización-Mercado</p>
+                    <p class="services-item--description">Persona-Organización-Mercado</p>
                       
                 </div>
 
@@ -148,18 +179,53 @@
 
                     
                     <h3 class="services-item--title">Cursos, Seminarios y Charlas</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <a href="#" class="modal services-item--link" data-lightbox-target="#modal-2" data-lightbox-modal="true">Leer más</a>
+
+                    <div id="modal-2" class="hidden">
+                    <h3 class="services-item--title" style="text-align:center; font-size:24px">Cursos, Seminarios y Charlas. Programas de Coaching
+                        individual y grupal.</h3>
+                    
+                        <p class="modal-description">
+
+                        Cada vez más, empresas de todos los ámbitos y tamaños, están reconociendo la
+                        importancia de brindar a sus colaboradores la oportunidad de potenciar las
+                        habilidades y competencias que su rol dentro de la organización necesita. Este
+                        proceso logra desarrollar líderes en cualquier punto de la pirámide organizacional,
+                        que logren articular un trabajo en equipo, ya que “la resonancia se establece
+                        cuando tanto el equipo como el líder están dando lo mejor de sí mismos, cuando la
+                        conexión emocional y el compromiso son altos entre ambos”.
+
+                        </p>
+
+                        <br>                     
+
+                        <p class="modal-description">
+
+                            En el coaching grupal “el papel y la responsabilidad del coach está en facilitar un
+                            espacio “seguro” para el equipo donde se le rete y proteja al mismo tiempo, para
+                            que éste pueda reflexionar y “abrirse” con la finalidad de avanzar en aquello que
+                            realmente desea”
+
+                        </p>
+
+                        <p>
+                            <button role="button" data-lightbox-modal-trigger=".modal">
+                                Cerrar
+                            </button>
+                        </p>
+
+
+                    </div>
                     
                 </div>
 
                 <!----------------------------------------------------------------->
 
                  <div class="services-item">
-
                    
-                    <h3 class="services-item--title">Paquetes vacacionales</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
-                      
+                    <h3 class="services-item--title">Paquetes vacacionales tanto dentro como fuera del país, alquiler de
+                        carros, tours, team building empresarial, eventos corporativos e incentivos.</h3>
+                                          
                 </div>
 
                  <!-- -------------------------------------------------------------->
@@ -167,28 +233,61 @@
                  <div class="services-item">
 
                   
-                    <h3 class="services-item--title">Eventos BTL</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <h3 class="services-item--title">Eventos BTL & Catering Service</h3>
+                    <a href="#" class="modal services-item--link" data-lightbox-target="#modal-3" data-lightbox-modal="true">Leer más</a>
+                    <div id="modal-3" class="hidden">
+                    <h3 class="services-item--title" style="text-align:center; font-size:24px">Eventos BTL & Catering Service</h3>
+                        <h4 style="font-size: 20px;">Mercadeo por eventos:</h4>
+                        <ul class="list">
+                            <li class="list-item"><i class="fas fa-user-check"></i> Corporativos</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Deportivos</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Culturales</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Sociales</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Team Building</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Moda</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Conciertos</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Catering Service, capacidad de menaje para 3000 personas<li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Relaciones públicas, prensa y convocatoria a eventos</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Diseño y producción de materiales gráficos</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Gestión y venta de patrocinios</li>
+                        </ul>
+                        
+                        <p>
+                            <button role="button" data-lightbox-modal-trigger=".modal">
+                                Cerrar
+                            </button>
+                        </p>
+                    </div>
                     
-                 </div>
-
-                <!-- -------------------------------------------------------------->
-
-                <div class="services-item">
-
-                    
-                    <h3 class="services-item--title">Catering Service</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
-                    
-                 </div>
+                 </div>            
 
                 <!---------------------------------------------------------------->  
 
                 <div class="services-item">
 
                     
-                    <h3 class="services-item--title">Aseo Industrial...</h3>
-                    <a href="#" class="services-item--link">Leer más</a>
+                    <h3 class="services-item--title">Aseo Industrial, de bodegas, hospitales, centros comerciales</h3>
+                    <a href="#" class="modal services-item--link" data-lightbox-target="#modal-4" data-lightbox-modal="true">Leer más</a>
+
+                    <div id="modal-4" class="hidden">
+                    <h3 class="services-item--title" style="text-align:center; font-size:24px">Aseo Industrial, de bodegas, hospitales, centros comerciales</h3>
+                        <h4 style="font-size: 20px;">Ofrecemos servicios de limpieza semi profunda o profunda, ofrecemos:</h4>
+
+                        <ul class="list">
+                            <li class="list-item"><i class="fas fa-user-check"></i> Aspiradoras</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Fregadoras</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Hidrolavadoras</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Lava Aspiradoras para alfombras</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Barredoras</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Cepillos eléctricos industriales</li>                            
+                        </ul>
+                        
+                        <p>
+                            <button role="button" data-lightbox-modal-trigger=".modal">
+                                Cerrar
+                            </button>
+                        </p>
+                    </div>
                     
                  </div>
 
@@ -427,7 +526,9 @@ if (isset($_POST['submit'])) {
         <h3 class="webmaster">Desarrollado por: Gustavo Solórzano</h3>
    </div> 
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/scripts.js"></script>      
+    <script src="assets/js/scripts.js"></script> 
+    <script src="assets/js/responsive.min.js"></script> 
+
 </footer>
 
 </body>
