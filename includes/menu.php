@@ -12,7 +12,12 @@
                 </li>
                 <li class="main-menu__item">
                     <a href="servicios.php" class="main-menu__link">Nuestros servicios</a>
-                </li>                              
+                </li>  
+                
+                <li class="main-menu__item">
+                    <a href="patrocinadores.php" class="main-menu__link">Patrocinadores</a>
+                </li> 
+
                 <li class="main-menu__item">
                     <a href="contacto.php" class="main-menu__link">Contacto</a>
                 </li>

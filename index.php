@@ -30,13 +30,13 @@
                     </li>
                     <li class="main-menu__item">
                         <a href="#quienes-somos" class="main-menu__link">¿Quiénes somos?</a>
-                    </li>            
-                    <li class="main-menu__item">
-                        <a href="#nuestros-valores" class="main-menu__link">Nuestros valores</a>
-                    </li> 
+                    </li>                             
                     <li class="main-menu__item">
                         <a href="#nuestros-servicios" class="main-menu__link">Nuestros servicios</a>
-                    </li>                              
+                    </li>  
+                    <li class="main-menu__item">
+                        <a href="#patrocinadores" class="main-menu__link">Nuestros patrocinadores</a>
+                    </li>                             
                     <li class="main-menu__item">
                         <a href="#contacto" class="main-menu__link">Contacto</a>
                     </li>
@@ -106,270 +106,306 @@
                     <h3 class="services-item--title">Búsqueda, Reclutamiento, Evaluación y Selección de personal</h3>
                     
                     <a href="#" class="modal services-item--link" data-lightbox-target="#modal" data-lightbox-modal="true">Leer más</a>
+
                     <div id="modal" class="hidden">
-                    <h3 class="services-item--title" style="text-align:center; font-size:24px">Búsqueda, Reclutamiento, Evaluación y Selección de personal</h3>
-                        <ul class="list">
-                            <li class="list-item"><i class="fas fa-user-check"></i> Análisis curricular y verificación de antecedentes</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Test psicométricos para medición de aptitudes</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Definición de interés por parte de los candidatos</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Test de situaciones practicas</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Test de polígrafo</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Entrega por escrito de completos y finos reportes para el cliente</li>
-                           <li class="list-item"><i class="fas fa-user-check"></i> Feed-back a los candidatos</li>
-                        </ul>
-                        
-                        <p>
-                            <button role="button" data-lightbox-modal-trigger=".modal">
-                                Cerrar
-                            </button>
-                        </p>
+                        <h3 class="services-item--title" style="text-align:center; font-size:24px">Búsqueda, Reclutamiento, Evaluación y Selección de personal</h3>
+                            <ul class="list">
+                                <li class="list-item"><i class="fas fa-user-check"></i> Análisis curricular y verificación de antecedentes</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Test psicométricos para medición de aptitudes</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Definición de interés por parte de los candidatos</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Test de situaciones practicas</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Test de polígrafo</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Entrega por escrito de completos y finos reportes para el cliente</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Feed-back a los candidatos</li>
+                            </ul>
+                            
+                            <p>
+                                <button role="button" data-lightbox-modal-trigger=".modal">
+                                    Cerrar
+                                </button>
+                            </p>
                     </div>
                       
                 </div>
 
-                 <!----------------------------------------------------------------->
+                    <!------------------------------------------------------------>
 
-                 <div class="services-item">
+                    <div class="services-item">  
+                      <h3 class="services-item--title">Contratación e Inducción (On boarding process)</h3>
+                    </div>
 
-                    <h3 class="services-item--title">Contratación e Inducción (On boarding process)</h3>
-                    <a href="#" class="modal services-item--link" data-lightbox-target="#modal-1" data-lightbox-modal="true">Leer más</a>
-                    <div id="modal-1" class="hidden">
+                    <!------------------------------------------------------------>
+                   
+                    <div class="services-item"> 
 
-                        <h3 class="services-item--title" style="text-align:center; font-size:24px">Contratación e Inducción (On boarding process)</h3>
-
-                        <p class="modal-description">
-
-                            Inducción a la empresa y al cargo a desempeñar,incluyendo un programa de coaching individual
-
-                        </p>
-
-                        <p>
-                            <button role="button" data-lightbox-modal-trigger=".modal">
-                                Cerrar
-                            </button>
-                        </p>
-
+                        <h3 class="services-item--title">Administración de la Capacitación y el Bienestar</h3>
 
                     </div>
-                    
-                      
-                </div>
 
-                 <!-- ------------------------------------------------------------- -->
+                    <div class="services-item">
 
-                 <div class="services-item">
-                    
-                    <h3 class="services-item--title">Administración de la Capacitación y el Bienestar</h3>                    
-                                          
-                </div>
-
-                 <!-- ------------------------------------------------------------- -->                 
-
-                 <div class="services-item">
-
-                    
-                    <h3 class="services-item--title">Servicios de Consultoría para mejorar el Desempeño, la efectividad y la
+                        <h3 class="services-item--title">Servicios de Consultoría para mejorar el Desempeño, la efectividad y la
                         adaptación al Cambio</h3>
-                        
-                    <p class="services-item--description">Persona-Organización-Mercado</p>
-                      
-                </div>
 
-                 <!-- ------------------------------------------------------------- -->
-
-                 <div class="services-item">
-
-                    
-                    <h3 class="services-item--title">Cursos, Seminarios y Charlas</h3>
-                    <a href="#" class="modal services-item--link" data-lightbox-target="#modal-2" data-lightbox-modal="true">Leer más</a>
-
-                    <div id="modal-2" class="hidden">
-                    <h3 class="services-item--title" style="text-align:center; font-size:24px">Cursos, Seminarios y Charlas. Programas de Coaching
-                        individual y grupal.</h3>
-                    
-                        <p class="modal-description">
-
-                        Cada vez más, empresas de todos los ámbitos y tamaños, están reconociendo la
-                        importancia de brindar a sus colaboradores la oportunidad de potenciar las
-                        habilidades y competencias que su rol dentro de la organización necesita. Este
-                        proceso logra desarrollar líderes en cualquier punto de la pirámide organizacional,
-                        que logren articular un trabajo en equipo, ya que “la resonancia se establece
-                        cuando tanto el equipo como el líder están dando lo mejor de sí mismos, cuando la
-                        conexión emocional y el compromiso son altos entre ambos”.
-
-                        </p>
-
-                        <br>                     
-
-                        <p class="modal-description">
-
-                            En el coaching grupal “el papel y la responsabilidad del coach está en facilitar un
-                            espacio “seguro” para el equipo donde se le rete y proteja al mismo tiempo, para
-                            que éste pueda reflexionar y “abrirse” con la finalidad de avanzar en aquello que
-                            realmente desea”
-
-                        </p>
-
-                        <p>
-                            <button role="button" data-lightbox-modal-trigger=".modal">
-                                Cerrar
-                            </button>
-                        </p>
-
-
-                    </div>
-                    
-                </div>
-
-                <!----------------------------------------------------------------->
-
-                 <div class="services-item">
-                   
-                    <h3 class="services-item--title">Paquetes vacacionales tanto dentro como fuera del país, alquiler de
-                        carros, tours, team building empresarial, eventos corporativos e incentivos.</h3>
-                                          
-                </div>
-
-                 <!-- -------------------------------------------------------------->
-
-                 <div class="services-item">
-
-                  
-                    <h3 class="services-item--title">Eventos BTL & Catering Service</h3>
-                    <a href="#" class="modal services-item--link" data-lightbox-target="#modal-3" data-lightbox-modal="true">Leer más</a>
-                    <div id="modal-3" class="hidden">
-                    <h3 class="services-item--title" style="text-align:center; font-size:24px">Eventos BTL & Catering Service</h3>
-                        <h4 style="font-size: 20px;">Mercadeo por eventos:</h4>
-                        <ul class="list">
-                            <li class="list-item"><i class="fas fa-user-check"></i> Corporativos</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Deportivos</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Culturales</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Sociales</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Team Building</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Moda</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Conciertos</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Catering Service, capacidad de menaje para 3000 personas<li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Relaciones públicas, prensa y convocatoria a eventos</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Diseño y producción de materiales gráficos</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Gestión y venta de patrocinios</li>
-                        </ul>
-                        
-                        <p>
-                            <button role="button" data-lightbox-modal-trigger=".modal">
-                                Cerrar
-                            </button>
+                        <p class="services-item--description">
+                            Persona-Organización-Mercado
                         </p>
                     </div>
-                    
-                 </div>            
 
-                <!---------------------------------------------------------------->  
+                    <!------------------------------------------------------------>
 
-                <div class="services-item">
+                    <div class="services-item">
 
-                    
-                    <h3 class="services-item--title">Aseo Industrial, de bodegas, hospitales, centros comerciales</h3>
-                    <a href="#" class="modal services-item--link" data-lightbox-target="#modal-4" data-lightbox-modal="true">Leer más</a>
+                        <h3 class="services-item--title">Cursos, Seminarios y Charlas</h3>
+                        
+                        <a href="#" class="modal-2 services-item--link" data-lightbox-target="#modal-2" data-lightbox-modal="true">Leer más</a>
 
-                    <div id="modal-4" class="hidden">
-                    <h3 class="services-item--title" style="text-align:center; font-size:24px">Aseo Industrial, de bodegas, hospitales, centros comerciales</h3>
-                        <h4 style="font-size: 20px;">Ofrecemos servicios de limpieza semi profunda o profunda, ofrecemos:</h4>
+                        <div id="modal-2" class="hidden">
+
+                            <h3 class="services-item--title" style="text-align:center; font-size:24px">Cursos, Seminarios y Charlas. Programas de Coaching individual y grupal</h3>
+
+                            <p class="services-item--description">
+                                Cada vez más, empresas de todos los ámbitos y tamaños, están reconociendo la
+                                importancia de brindar a sus colaboradores la oportunidad de potenciar las
+                                habilidades y competencias que su rol dentro de la organización necesita. Este
+                                proceso logra desarrollar líderes en cualquier punto de la pirámide organizacional,
+                                que logren articular un trabajo en equipo, ya que “la resonancia se establece
+                                cuando tanto el equipo como el líder están dando lo mejor de sí mismos, cuando la
+                                conexión emocional y el compromiso son altos entre ambos”.
+                            </p>
+
+                            <br>
+
+                            <p class="services-item--description">
+                                En el coaching grupal “el papel y la responsabilidad del coach está en facilitar un
+                                espacio “seguro” para el equipo donde se le rete y proteja al mismo tiempo, para
+                                que éste pueda reflexionar y “abrirse” con la finalidad de avanzar en aquello que
+                                realmente desea”
+                            </p>
+
+                            <p>
+                                <button class="btn" role="button" data-lightbox-modal-trigger=".modal-2">
+                                    Cerrar
+                                </button>
+                            </p>
+
+                        </div>                          
+                        
+                    </div>
+
+                    <!------------------------------------------------------------>
+
+                    <div class="services-item">
+
+                        <h3 class="services-item--title">Paquetes vacacionales</h3>
+
+                        <a href="#" class="modal-3 services-item--link" data-lightbox-target="#modal-3" data-lightbox-modal="true">Leer más</a>
+
+                        <div id="modal-3" class="hidden">
+
+                        <h3 class="services-item--title" style="text-align:center; font-size:24px">Paquetes vacacionales:</h3>
 
                         <ul class="list">
-                            <li class="list-item"><i class="fas fa-user-check"></i> Aspiradoras</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Fregadoras</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Hidrolavadoras</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Lava Aspiradoras para alfombras</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Barredoras</li>
-                            <li class="list-item"><i class="fas fa-user-check"></i> Cepillos eléctricos industriales</li>                            
+                            <li class="list-item"><i class="fas fa-user-check"></i> Tanto dentro como fuera del país</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Alquiler de carros</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Tours</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Team building empresarial</li>
+                            <li class="list-item"><i class="fas fa-user-check"></i> Eventos corporativos e incentivos</li>
+                                
                         </ul>
-                        
+                            
                         <p>
-                            <button role="button" data-lightbox-modal-trigger=".modal">
+                            <button role="button" data-lightbox-modal-trigger=".modal-3">
                                 Cerrar
                             </button>
                         </p>
+
+                        </div>                        
+
                     </div>
-                    
-                 </div>
 
-                <!---------------------------------------------------------------->  
+                    <!------------------------------------------------------------>
 
-                <div class="services-item">
-                    
-                    <h3 class="services-item--title">Venta de implementos de oficina</h3>                    
-                    
-                 </div>
-                 
-                <!---------------------------------------------------------------->    
+                    <div class="services-item">
 
-                <div class="services-item">
-                  
-                    <h3 class="services-item--title">Etiquetado y armado de promociones</h3>                    
-                    
-                 </div>
-                 
-                <!---------------------------------------------------------------->   
+                        <h3 class="services-item--title">Eventos BTL</h3>
 
-                <div class="services-item">
-                    
-                    <h3 class="services-item--title">Serigrafía</h3>                    
-                    
-                 </div>
-                 
-                <!---------------------------------------------------------------->   
+                        <a href="#" class="modal-4 services-item--link" data-lightbox-target="#modal-4" data-lightbox-modal="true">Leer más</a>
 
-                <div class="services-item">
-                   
-                    <h3 class="services-item--title">Rotulación</h3>                    
-                    
-                 </div>
-                 
-                <!----------------------------------------------------------------> 
+                        <div id="modal-4" class="hidden">
 
-                <div class="services-item">
+                            <h3 class="services-item--title" style="text-align:center; font-size:24px">Eventos BTL & Catering Service(Organización y planificación de eventos)</h3>                        
+                            <h3>Mercadeo por eventos:</h3>
+
+                            <ul class="list">
+                                <li class="list-item"><i class="fas fa-user-check"></i> Corporativos</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Deportivos</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Culturales</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Team Building</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Moda</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Conciertos</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Catering Service, capacidad de menaje para 3000 personas</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Relaciones públicas</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> prensa y convocatoria a eventos</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Diseño y producción de materiales gráficos</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Gestión y venta de patrocinios</li>
+                                
+                             </ul>                            
+                            
+                            <p>
+                                <button role="button" data-lightbox-modal-trigger=".modal-4">
+                                    Cerrar
+                                </button>
+                            </p>
+
+                        </div>
+
+                    </div> 
                     
-                    <h3 class="services-item--title">Mercadeo y telemarketing</h3>                   
-                    
-                 </div>
-                 
-                <!---------------------------------------------------------------->     
+                     <!------------------------------------------------------------>
+
+                     <div class="services-item">
+
+                        <h3 class="services-item--title">Aseo Industrial, de bodegas, hospitales, etc</h3>
+
+                        <a href="#" class="modal-5 services-item--link" data-lightbox-target="#modal-5" data-lightbox-modal="true">Leer más</a>
+
+                        <div id="modal-5" class="hidden">
+
+                            <h3 class="services-item--title" style="text-align:center; font-size:24px">Aseo Industrial, de bodegas, hospitales, centros comerciales</h3>
+
+                            <h3>Ofrecemos servicios de limpieza semi profunda o profunda, ofrecemos:</h3>
+
+                            <ul class="list">
+                                <li class="list-item"><i class="fas fa-user-check"></i> Aspiradoras</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Fregadoras</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Hidrolavadoras</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Barredora</li>
+                                <li class="list-item"><i class="fas fa-user-check"></i> Cepillos eléctricos industriales</li>
+                                
+                             </ul>
+
+                             <img src="assets/img/servicios-de-limpieza.jpg" alt="">
+                            
+                            <p>
+                                <button class="btn" role="button" data-lightbox-modal-trigger=".modal-5">
+                                 Cerrar
+                                </button>
+                            </p>
+
+                        </div>
+
+                     </div>
+
+                      <!------------------------------------------------------------>
+
+                     <div class="services-item"> 
+
+                      <h3 class="services-item--title">Venta de implementos de oficina</h3>
+
+                    </div>
+
+                    <!------------------------------------------------------------>
+
+                    <div class="services-item"> 
+
+                        <h3 class="services-item--title">Etiquetado y armado de promociones</h3>
+
+                    </div>
+
+                    <!------------------------------------------------------------>
+
+                    <div class="services-item"> 
+
+                        <h3 class="services-item--title">Serigrafía</h3>
+
+                    </div>
+
+                    <!------------------------------------------------------------>
+
+                    <div class="services-item"> 
+
+                        <h3 class="services-item--title">Rotulación</h3>
+
+                    </div>
+
+                    <!------------------------------------------------------------>
+
+                    <div class="services-item"> 
+
+                        <h3 class="services-item--title">Mercadeo y telemarketing</h3>
+
+                    </div>
+
+
 
             </section>  
 
        </section>
+
+     
         <!--Valores -->
 
-        <section class="valores" id="nuestros-valores">
-            <h2 class="valores-title">Nuestros valores</h2>
-            <div class="l-container valores-block">
-                <div class="valores-items">                
-                    <article class="valores-items__icon">
-                        <img src="assets/img/respect.png" alt="Responsabilidad Oxygen">
-                        <h3 class="valores-items__title">Responsabilidad</h3>
-                    </article>                    
-                </div>                
-                <div class="valores-items">                
-                    <article class="valores-items__icon">
-                        <img src="assets/img/lealtad.png" alt="Responsabilidad Oxygen">
-                        <h3 class="valores-items__title">Lealtad</h3>
-                    </article>                    
+        <section class="patrocinadores" id="patrocinadores">
+            <h2 class="patrocinadores-title">Nuestros patrocinadores</h2> 
+
+            <section class="patrocinadores-container l-container">
+                <div class="patrocinadores-image">
+                    <div class="patrocinador-img">
+                        <img src="assets/img/aeromar.jpg" alt="">
+                    </div>
                 </div>
-                <div class="valores-items">                
-                    <article class="valores-items__icon">
-                        <img src="assets/img/confianza.png" alt="Responsabilidad Oxygen">
-                        <h3 class="valores-items__title">Confianza</h3>
-                    </article>                    
+
+                <div class="patrocinadores-image">
+                    <div class="patrocinador-img">
+                        <img src="assets/img/jetset.jpg" width="233" height="93" alt="">
+                    </div>
                 </div>
-                <div class="valores-items">                
-                    <article class="valores-items__icon">
-                        <img src="assets/img/superacion.png" alt="Responsabilidad Oxygen">
-                        <h3 class="valores-items__title">Superación</h3>
-                    </article>                    
+
+                <div class="patrocinadores-image">
+                    <div class="patrocinador-img">
+                        <img src="assets/img/integral.jpg" width="233" height="93" alt="">
+                    </div>
                 </div>
-            </div>
-        
-        </section>       
+
+                <div class="patrocinadores-image">
+                    <div class="patrocinador-img">
+                        <img src="assets/img/musculan.jpg" width="233" height="93" alt="">
+                    </div>
+                </div>
+
+                <div class="patrocinadores-image">
+                    <div class="patrocinador-img">
+                        <img src="assets/img/ins.jpg" width="233" height="93" alt="">
+                    </div>
+                </div>
+
+                <div class="patrocinadores-image">
+                    <div class="patrocinador-img">
+                        <img src="assets/img/genoma-lab.jpg" width="233" height="93" alt="">
+                    </div>
+                </div>
+
+                <div class="patrocinadores-image">
+                    <div class="patrocinador-img">
+                        <img src="assets/img/cocacola.jpg" width="233" height="93" alt="">
+                    </div>
+                </div>
+
+                <div class="patrocinadores-image">
+                    <div class="patrocinador-img">
+                        <img src="assets/img/florida.jpg" width="233" height="93" alt="">
+                    </div>
+                </div>
+
+                <div class="patrocinadores-image">
+                    <div class="patrocinador-img">
+                        <img src="assets/img/pozuelo.jpg" width="233" height="93" alt="">
+                    </div>
+                </div>
+                </section>
+         </section>     
+     
 
         <!-- Contacto -->
 
@@ -520,6 +556,8 @@ if (isset($_POST['submit'])) {
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/scripts.js"></script> 
     <script src="assets/js/responsive.min.js"></script> 
+<script>
+   
 
 </footer>
 

@@ -1,0 +1,47 @@
+.patrocinadores{
+
+    background: #fff;
+    padding    : 8rem 0 8rem; 
+
+    &-title{
+        width      : 100%;
+        text-align : center;
+        color      : $hover-text;
+        margin     : 0;
+        padding-bottom: 4rem;
+        font-size  : var(--h2--font-size);
+      }
+}
+
+.patrocinadores-container{
+
+    display   : flex;
+    flex-wrap : wrap;
+    
+}
+
+.patrocinadores-image{
+
+    margin: 1rem;
+    width: 100%; 
+    text-align: center;
+
+    @include from(lg){
+
+        width: calc(25% - 2rem);
+    } 
+    
+    img{
+
+        opacity: .7;
+
+        &:hover{
+
+            opacity: .9;
+            transition: ease .2s;
+        }
+    }
+    
+}
+
+

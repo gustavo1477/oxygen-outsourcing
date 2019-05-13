@@ -43,5 +43,4 @@ $('.faq__container').on('click' , 'h3', function(){
 });
 
 
-// validando formulario
 
