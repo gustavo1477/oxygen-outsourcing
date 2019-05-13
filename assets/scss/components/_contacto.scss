@@ -1,5 +1,4 @@
-.contacto{
-    background: #fff;
+.contacto{    
     padding: 7rem 0 7rem;
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +25,8 @@
 }
 
 .contacto-info{
-    width  : 100%;   
+    width  : 100%;  
+    font-size: 16px; 
 
     &__redes{
         display        : flex;  
@@ -60,6 +60,11 @@
            
         }        
     } 
+
+    .contacto-item{
+
+        margin-bottom: 10px;
+    }
     
     .form-container{
 

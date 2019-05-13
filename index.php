@@ -540,12 +540,19 @@ if (isset($_POST['submit'])) {
                 <article class="contacto-info">
                     <h3 class="contacto-title">Para más información</h3>
                     <h3 class="contact_subtitle">puede contactarnos a:</h3>
-                    <p><i class="far fa-envelope"></i>&nbsp; gerencia@oxygenoutsourcing.net</p>
-                    <p>con Ericka Chavarría CEO</p>
-                </article>
+                    <!-- <p><i class="fas fa-phone-volume"></i>&nbsp;2101-6604/Celular: 7275-6858/ 8826-566</p> -->
+                    
+                    <ul >
+                        <li class="contacto-item"><i class="fas fa-phone-volume"></i>&nbsp;2101-6604/Celular: 7275-6858/ 8826-566</li>
+                        <li class="contacto-item"><i class="far fa-envelope"></i>&nbsp;ventas@oxygenoutsourcing.net</li>
+                    </ul>        
+                   
+                </article>                
             </div>
             
         </section>
+
+      
 
         <!-- Footer -->
  <footer class="main-footer l-section">
@@ -556,7 +563,6 @@ if (isset($_POST['submit'])) {
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/scripts.js"></script> 
     <script src="assets/js/responsive.min.js"></script> 
-<script>
    
 
 </footer>
