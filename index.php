@@ -10,11 +10,17 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">    
     <link rel="stylesheet" href="assets/css/responsive.min.css"> 
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">    
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css"> 
     <script src="assets/js/wow.min.js"></script>
+    
     <script>
        new WOW().init();
     </script>
-    
+   
+   
+
+        
 </head>
 <body>
 
@@ -346,149 +352,51 @@
      
         <!--Valores -->
 
-        <section class="patrocinadores" id="patrocinadores">
-            <h2 class="patrocinadores-title">Nuestros patrocinadores</h2> 
+        <section id="demos" class="regular slider patrocinadores" id="patrocinadores">
+            <h2 class="patrocinadores-title">Algunos de nuestros clientes</h2>                       
 
-            <section class="patrocinadores-container l-container">
-                <div class="patrocinadores-image">
-                    <div class="patrocinador-img">
-                        <img src="assets/img/aeromar.jpg" alt="">
-                    </div>
+            <div class="row">
+            <div class="large-12 columns">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="assets/img/aeromar.jpg" width="233" hright="10" alt="">
                 </div>
-
-                <div class="patrocinadores-image">
-                    <div class="patrocinador-img">
-                        <img src="assets/img/jetset.jpg" width="233" height="93" alt="">
-                    </div>
+                <div class="item">
+                   <img src="assets/img/jetset.jpg" width="233" hright="10"  alt="">
                 </div>
-
-                <div class="patrocinadores-image">
-                    <div class="patrocinador-img">
-                        <img src="assets/img/integral.jpg" width="233" height="93" alt="">
-                    </div>
+                <div class="item">
+                   <img src="assets/img/integral.jpg" alt="">
                 </div>
-
-                <div class="patrocinadores-image">
-                    <div class="patrocinador-img">
-                        <img src="assets/img/musculan.jpg" width="233" height="93" alt="">
-                    </div>
+                <div class="item">
+                   <img src="assets/img/musculan.jpg" alt="">
                 </div>
-
-                <div class="patrocinadores-image">
-                    <div class="patrocinador-img">
-                        <img src="assets/img/ins.jpg" width="233" height="93" alt="">
-                    </div>
+                <div class="item">
+                   <img src="assets/img/ins.jpg" alt="">
                 </div>
-
-                <div class="patrocinadores-image">
-                    <div class="patrocinador-img">
-                        <img src="assets/img/genoma-lab.jpg" width="233" height="93" alt="">
-                    </div>
+                <div class="item">
+                   <img src="assets/img/genoma-lab.jpg" alt="">
                 </div>
-
-                <div class="patrocinadores-image">
-                    <div class="patrocinador-img">
-                        <img src="assets/img/cocacola.jpg" width="233" height="93" alt="">
-                    </div>
+                <div class="item">
+                   <img src="assets/img/cocacola.jpg" alt="">
                 </div>
-
-                <div class="patrocinadores-image">
-                    <div class="patrocinador-img">
-                        <img src="assets/img/florida.jpg" width="233" height="93" alt="">
-                    </div>
+                <div class="item">
+                   <img src="assets/img/florida.jpg" alt="">
                 </div>
-
-                <div class="patrocinadores-image">
-                    <div class="patrocinador-img">
-                        <img src="assets/img/pozuelo.jpg" width="233" height="93" alt="">
-                    </div>
+                <div class="item">
+                   <img src="assets/img/pozuelo.jpg" alt="">
                 </div>
-                </section>
+                
+                
+          </div>
+          
          </section>     
      
 
         <!-- Contacto -->
 
-        <?php 
-
-$errores = '';
-$enviado = '';
-
-if (isset($_POST['submit'])) {
-	$nombre = $_POST['nombre'];
-    $correo = $_POST['correo'];
-    $empresa = $_POST['empresa'];
-    $telefono = $_POST['telefono'];
-    $provincia = $_POST['provincia'];
-    $direccion = $_POST['direccion'];
-	$mensaje = $_POST['mensaje'];
-
-	if (!empty($nombre)) {
-		$nombre = trim($nombre);
-		$nombre = filter_var($nombre, FILTER_SANITIZE_STRING);
-	} else {
-		$errores .= 'Por favor ingresa un nombre <br />';
-	}
-
-	if (!empty($correo)) {
-		$correo = filter_var($correo, FILTER_SANITIZE_EMAIL);
-
-		if(!filter_var($correo, FILTER_VALIDATE_EMAIL)){
-			$errores .= 'Por favor ingresa un correo valido <br />';
-		}
-	} else {
-		$errores .= 'Por favor ingresa un correo <br />';
-    }
-    
-    if (!empty($empresa)) {
-		$empresa = trim($nombre);
-		$empresa = filter_var($empresa, FILTER_SANITIZE_STRING);
-	} else {
-		$errores .= 'Por favor ingresa el nombre de la empresa <br />';
-    }
-    
-    if (!empty($telefono)) {
-		$telefono = trim($telefono);
-		$telefono = filter_var($telefono, FILTER_SANITIZE_NUMBER_FLOAT);
-	} else {
-		$errores .= 'Por favor ingresa un nombre <br />';
-    }
-    
-    if (!empty($provincia)) {
-		$provincia = trim($provincia);
-		$provincia = filter_var($provincia, FILTER_SANITIZE_STRING);
-	} else {
-		$errores .= 'Por favor ingresa el nombre de la empresa <br />';
-    }
-
-    if (!empty($direccion)) {
-		$direccion = trim($direccion);
-		$direccion = filter_var($direccion, FILTER_SANITIZE_STRING);
-	} else {
-		$errores .= 'Por favor ingresa el nombre de la empresa <br />';
-    }
-
-	if(!empty($mensaje)){
-		$mensaje = htmlspecialchars($mensaje);
-		$mensaje = trim($mensaje);
-		$mensaje = stripslashes($mensaje);
-	} else {
-		$errores .= 'Por favor ingresa el mensaje <br />';
-	}
-
-	if(!$errores){
-		$enviar_a = 'gerencia@oxygenoutsourcing.net';
-		$asunto = 'Correo enviado desde Oxygen Outsourcing';
-		$mensaje_preparado = "De: $nombre \n";
-		$mensaje_preparado .= "Correo: $correo \n";
-		$mensaje_preparado .= "Mensaje: " . $mensaje;
-
-		//mail($enviar_a, $asunto, $mensaje_preparado);
-		$enviado = 'true';
-	}
-
-}
-?>
+        <?php
+            require_once "include/contacto.php";
+        ?>
 
         <section class="contacto" id="contacto">
             <div class="l-container contacto-block">                
@@ -562,7 +470,26 @@ if (isset($_POST['submit'])) {
    </div> 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/scripts.js"></script> 
-    <script src="assets/js/responsive.min.js"></script> 
+    <script src="assets/js/responsive.min.js"></script>  
+    <script src="assets/js/owl.carousel.js"></script>  
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:4,
+            loop:true,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true
+        });
+        $('.play').on('click',function(){
+            owl.trigger('play.owl.autoplay',[1000])
+        })
+        $('.stop').on('click',function(){
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
+    
    
 
 </footer>
