@@ -1,0 +1,68 @@
+.staff{
+
+    background: #fff;
+    
+
+    &-title{
+        color: $hover-text;
+        text-align: center;
+        margin: 0;        
+        padding: 2rem;
+        font-size: var(--h2--font-size);
+    }
+}
+
+.staff-container{
+    
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  
+
+}
+
+.staff-enterprise{
+
+    width: 100%;    
+    margin-bottom: 1rem;
+    margin: 1rem;
+    
+    
+
+    @include from(lg){
+
+        width: calc(20% - 2rem);
+    }
+
+    .staff-member{
+
+        color: $hover-text;
+        border-left: 3px solid $hover-text;
+        font-size: --h2-font-size;
+
+        @include from(lg){
+
+            font-size: --body--font-size;
+        }
+
+        &:hover{
+
+            color: #000;
+            cursor: pointer;
+        }
+    }
+
+    .staff-ocupation{
+
+        color: #C2C2C2;
+   }
+
+   .staff-description{
+
+    color: #939393;
+    font-weight: bold;
+   }
+
+   
+}

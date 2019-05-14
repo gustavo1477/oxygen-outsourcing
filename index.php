@@ -352,7 +352,7 @@
      
         <!--Valores -->
 
-        <section id="demos" class="regular slider patrocinadores" id="patrocinadores">
+        <section class="patrocinadores" id="patrocinadores">
             <h2 class="patrocinadores-title">Algunos de nuestros clientes</h2>                       
 
             <div class="row">
@@ -460,12 +460,66 @@
             
         </section>
 
+        <section class="staff">
+
+            <div class="staff-title">Nuestro Staff</div>
+
+            <section class="staff-container l-container">
+                
+                <article class="staff-enterprise center-block">
+
+                    <h2 class="staff-member">Ericka Chavarria</h2>
+                    <h3 class="staff-ocupation">Gerente General</h3>  
+                    
+                </article>  
+
+                <article class="staff-enterprise">
+
+                    <h2 class="staff-member">Giselle Chavarria</h2>
+                    <h3 class="staff-ocupation">Lic. Mercaderista</h3>
+                    <p class="staff-description">Gerente de ventas & eventos
+                        Se encarga de nuestro departamento BTL, así como de eventos corporativos e
+                        incentivos.</p>  
+                    
+                </article>  
+
+                <article class="staff-enterprise">
+
+                    <h2 class="staff-member">Juliana Poveda</h2>
+                    <h3 class="staff-ocupation">Ing. Industrial</h3>
+                    <p class="staff-description">Gerente de ventas & eventos
+                        Se encarga de ofrecer el mejoramiento de procedimientos en las empresas.
+                    </p>  
+                    
+                </article> 
+
+                <article class="staff-enterprise">
+
+                    <h2 class="staff-member">Alonso Arias</h2>
+                    <h3 class="staff-ocupation">Administrador de empresas</h3>
+                    <p class="staff-description">A su cargo se encuentra la parte financiera así como nuestro personal.
+                    </p>  
+                    
+                </article>  
+
+                 <article class="staff-enterprise">
+
+                    <h2 class="staff-member">Melissa Arias</h2>
+                    <h3 class="staff-ocupation">Jefe de supervisores</h3>
+                    <p class="staff-description">Entre sus labores, tiene como responsabilidad visitar diariamente los servicios que
+                        ofrecemos.
+                    </p>  
+                    
+                </article>          
+            </section>
+        </section>
+
       
 
         <!-- Footer -->
  <footer class="main-footer l-section">
    <div class="main-footer__copyright">
-        <h3 class="copyright-desc">@ Copyright 2018 - Oxygen Outsourcing</h3>
+        <h3 class="copyright-desc">@ Copyright 2019 - Oxygen Outsourcing</h3>
         <h3 class="webmaster">Desarrollado por: Gustavo Solórzano</h3>
    </div> 
     <script src="assets/js/jquery.min.js"></script>
